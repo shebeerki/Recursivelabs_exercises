@@ -1,3 +1,5 @@
+/* Write a program to put ON the green LED P1.6 of launchpad using msp430g2231 */
+
 #include<msp430.h>
 void main()
 {

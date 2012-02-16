@@ -1,8 +1,9 @@
-/* write a program to blink the red or green LED on the launchpad board*/
+/* write a program to blink the red or green LED on the launchpad board using msp430g2231 */
 
 #include<msp430.h>
 main()
-{	
+{
+	WDTCTL = WDTPW + WDTHOLD;
 	P1DIR=BIT0 ;
 	int n;
 	while(1){
