@@ -14,7 +14,8 @@ main()
   		lfsr =  ( lfsr >> 1 ) | ( bit << 15) ;
   		P1OUT = lfsr & BIT6 ;
   		delay() ;
-		P1OUT ^= (BIT6 | BIT0 ) ; //toggling the led to know the change of its value
+		//P1OUT ^= (BIT6 | BIT0 ) ; //toggling the led to know the change of its value 
+		//it is optional used if one led is used.
   		++period ;
 	} while( lfsr != 0xACE1u ) ;
 }
