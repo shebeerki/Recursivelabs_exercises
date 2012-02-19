@@ -1,4 +1,4 @@
-/* write a program to blink p3.6 randomly on launchpad making it as bit number 6 , according to a linear feedback shift register algorithm*/
+/* write a program to blink p1.6 randomly on launchpad making it as bit number 6 , according to a linear feedback shift register algorithm*/
 #include<msp430.h>
 #include<stdint.h>
 void delay(void);
