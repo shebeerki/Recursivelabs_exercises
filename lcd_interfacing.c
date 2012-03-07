@@ -1,3 +1,5 @@
+/* LCD Interfacing in 4 bit mode*/
+
 #include<msp430g2231.h>
 
 #define RS(X) 	P1OUT = ((P1OUT & ~BIT7) | (X<<7))
