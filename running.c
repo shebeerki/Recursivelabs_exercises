@@ -1,3 +1,5 @@
+/* program to run light led through P1.0 to P1.3 with one led lit at a time */
+
 #include<msp430.h>
 main()
 {
